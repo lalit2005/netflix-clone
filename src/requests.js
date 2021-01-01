@@ -1,4 +1,5 @@
 const API_KEY = "2fcc4a6bd7587058f38e722f7a8977";
+//               ^FAKE API KEY!!!! 
 
 const requests = {
 	fetchTrending: `/trending/all/week?api_key=${API_KEY}&language=en-us`,
