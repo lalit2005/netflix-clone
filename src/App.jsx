@@ -17,11 +17,18 @@ function App() {
 				isLargeRow
 			/>
 			<Row title="Trending Now" fetchUrl={requests.fetchTrending} />
-			<Row title="Top Rated " fetchUrl={requests.fetchTopRated} />
 			<Row title="Action Movies" fetchUrl={requests.fetchActionMovies} />
 			<Row title="Comedy Movies" fetchUrl={requests.fetchComedyMovies} />
 			<Row title="Horror Movies" fetchUrl={requests.fetchHorrorMovies} />
-			<Row title="Documentaries" fetchUrl={requests.fetchDocumentaries} />
+			<Row title="Top Rated " fetchUrl={requests.fetchTopRated} />
+			<footer>
+				<a href="https://github.com/lalit2005">
+					<img
+						src="https://fontmeme.com/permalink/210101/42846c999c16a0840006897c1477a079.png"
+						alt="NETFLIX By LALIT"
+					/>
+				</a>
+			</footer>
 		</div>
 	);
 }

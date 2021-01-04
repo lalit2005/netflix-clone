@@ -19,3 +19,12 @@ html {
 		#111111
 	);
 }
+
+footer {
+	text-align: center;
+}
+
+footer img {
+	width: 40%;
+	padding-bottom: 80px;
+}
