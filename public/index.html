@@ -25,6 +25,27 @@
 		<div id="root"></div>
 		<script src="../src/index.jsx"></script>
 		<!-- The core Firebase JS SDK is always required and must be listed first -->
+		<!-- TODO: Add SDKs for Firebase products that you want to use https://firebase.google.com/docs/web/setup#available-libraries -->
 		<script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-app.js"></script>
+
+		<script src="../firebase-config.js"></script>
+
+		<script type="module">
+			// Your web app's Firebase configuration
+			// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+			// Your web app's Firebase configuration
+			import { firebaseConfig } from "../firebase-config.js";
+			// Initialize Firebase
+			firebase.initializeApp(firebaseConfig);
+			firebase.analytics();
+		</script>
+
+		<!-- Cloudflare Web Analytics -->
+		<script
+			defer
+			src="https://static.cloudflareinsights.com/beacon.min.js"
+			data-cf-beacon='{"token": "05fc45285f2d4a9d14aa1634ffc44daa"}'
+		></script>
+		<!-- End Cloudflare Web Analytics -->
 	</body>
 </html>

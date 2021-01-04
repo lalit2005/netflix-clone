@@ -30,6 +30,7 @@ yarn-error.log*
 **/node_modules/*
 **/.firebaserc
 firebase.json
+firebase-config.js
 
 ### Firebase Patch ###
 .runtimeconfig.json
